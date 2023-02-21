@@ -1,0 +1,17 @@
+Typescript 설치하기 
+
+프로젝트 폴더에서 
+first.ts 파일 추가 후
+ Npm -y -init 
+Npm I typescript
+Npx tsc —init //tsconfig.json 파일 생성
+
+Tsconfig.json
+ => “allowJs”:true 주석 풀어주기 (typescript, javascript 모두 허용)
+=> “module”: //“ES2015”-최신모듈시스템, “CommonJs”-노드모듈시스템
+=> “strict”: true 사용하지 않으면 typescript 쓰는 의미가 없다.
+
+Npx tsc -noEmit (typecript 검사내역)
+Npx tsp (typescript to javascript 코드변환)
+------------------------
+기본문법배우기 1까지 완료
